@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="nav">Booksky</h1>
+    <div class="container">
+    <div class="bookcontainer">
+        <h2>Rich dad poor dad</h2>
+        <h4>Robert</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In non rerum quod facilis voluptas ex aut, amet et nam. Atque praesentium unde quibusdam excepturi quos velit suscipit recusandae error maxime?</p>
+        <button onclick="deletebutton(event)">Delete</button>
+    </div>
+    </div>
+    <div class="popbg">
+    </div>
+    <div class="popup">
+        <h2>Add Books</h2>
+        <input type="text" placeholder="Book Title" class="book-title" >
+        <input type="text" placeholder="Book Author" class="book-author" >
+        <textarea placeholder="Short Description" class="short-des"></textarea>
+        <button id="add">Add</button>
+        <button id="cancel">Cancel</button>
+    </div>
+    <button class="circle">+</button>
+    
+</body>
+<script src="./index.js"></script>
+</html>
