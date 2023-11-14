@@ -1,129 +1,130 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-body,html{
-    height: 100%;
-    margin: 0;
-    padding: 0;
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
-body{
-    font-family: 'Poppins', sans-serif;
+body {
+  font-family: "Poppins", sans-serif;
 }
-.nav{
-    background-color: #fd6569;
-    padding: 1%;
+.nav {
+  background-color: #fd6569;
+  padding: 1%;
 }
-.bookcontainer{
-    width: 25%;
-    padding: 15px;
-    background-color: black;
-    color: white;
-    margin: 30px;
-    border-radius: 10px;
-    display: inline-block;
-    vertical-align: top;
+.bookcontainer {
+  width: 25%;
+  padding: 15px;
+  background-color: black;
+  color: white;
+  margin: 30px;
+  border-radius: 10px;
+  display: inline-block;
+  vertical-align: top;
 }
-.bookcontainer h2{
-    color: #fd6569;
+.bookcontainer h2 {
+  color: #fd6569;
 }
-.bookcontainer button{
-    background-color: #fd6569;
-    border-radius: 10px;
-    color: white;
-    padding:5px 10px 5px 10px;
-    margin-top: 10px;
-    border: 0;
+.bookcontainer button {
+  background-color: #fd6569;
+  border-radius: 10px;
+  color: white;
+  padding: 5px 10px 5px 10px;
+  margin-top: 10px;
+  border: 0;
 }
-.circle{
-    padding: 20px 35px 20px 35px ;
-    border-radius: 100%;
-    border: none;
-    background-color: #fd6569;
-    margin-top: 10px;
-    font-size: 40px;
-    position: fixed;
-    right: 30px;
-    bottom: 40px;
+.circle {
+  padding: 20px 35px 20px 35px;
+  border-radius: 100%;
+  border: none;
+  background-color: #fd6569;
+  margin-top: 10px;
+  font-size: 40px;
+  position: fixed;
+  right: 30px;
+  bottom: 40px;
 }
-.popbg{
-    background-color: black;
-    height: 100%;
-    width: 100%;
-    opacity: 0.8;
-    position: absolute;
-    top: 0%;
-    z-index: 1;
-    display: none;
-    position: fixed;
+.popbg {
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  opacity: 0.8;
+  position: absolute;
+  top: 0%;
+  z-index: 1;
+  display: none;
+  position: fixed;
 }
-.popup{
-    background-color: #fd6569;
-    width: 40%;
-    padding:40px;
-    border-radius: 10px;
-    opacity: 2;
-    position: absolute;
-    z-index: 2;
-    top: 20%;
-    left: 28%;
-    display: none;
-    position: fixed;
+.popup {
+  background-color: #fd6569;
+  width: 40%;
+  padding: 40px;
+  border-radius: 10px;
+  opacity: 2;
+  position: absolute;
+  z-index: 2;
+  top: 20%;
+  left: 28%;
+  display: none;
+  position: fixed;
 }
-.book-title{
-    background-color: transparent;
-    border: none;
-    width: 100%;
-    font-size: 20px;
-    border-bottom: solid black 2px;
-    padding: 5px;
-    margin-top: 5px;
+.book-title {
+  background-color: transparent;
+  border: none;
+  width: 100%;
+  font-size: 20px;
+  border-bottom: solid black 2px;
+  padding: 5px;
+  margin-top: 5px;
 }
 
-.short-des{
-    background-color: transparent;
-    width: 100%;
-    font-size: 20px;
-    border: solid black 2px;
-    padding: 5px;
-    margin-top: 15px;  
+.short-des {
+  background-color: transparent;
+  width: 100%;
+  font-size: 20px;
+  border: solid black 2px;
+  padding: 5px;
+  margin-top: 15px;
 }
 .book-title::placeholder {
-    color: black;
+  color: black;
 }
 
 .book-author::placeholder {
-    color: black;
+  color: black;
 }
-  
+
 .short-des::placeholder {
-    color: black;
+  color: black;
 }
 
-.book-title:focus{
-    outline:none;
+.book-title:focus {
+  outline: none;
 }
 
-.book-author:focus{
-    outline:none;
+.book-author:focus {
+  outline: none;
 }
 
-.short-des:focus{
-    outline:none;
+.short-des:focus {
+  outline: none;
 }
-.popup button{
-    padding:10px 20px 10px 20px;
-    background-color: black;
-    color: white;
-    border: none;
-    margin: 5px;
+.popup button {
+  padding: 10px 20px 10px 20px;
+  background-color: black;
+  color: white;
+  border: none;
+  margin: 5px;
 }
-.book-author{
-    background-color: transparent;
-    border: none;
-    width: 100%;
-    font-size: 20px;
-    border-bottom: solid black 2px;
-    padding: 5px;
-    margin-top: 5px;
+.book-author {
+  background-color: transparent;
+  border: none;
+  width: 100%;
+  font-size: 20px;
+  border-bottom: solid black 2px;
+  padding: 5px;
+  margin-top: 5px;
 }
