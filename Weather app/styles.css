@@ -74,3 +74,13 @@ body {
 .col img {
   width: 40px;
 }
+.weather {
+  display: none;
+}
+.error {
+  text-align: left;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-left: 10px;
+  display: none;
+}
